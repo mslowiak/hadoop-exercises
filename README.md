@@ -12,7 +12,7 @@ To simplify process of installation hadoop instance we decided to use Docker wit
 ### Steps:
 1. Run docker image with command:
     ```json
-    docker run --name hadoop_container harisekhon/hadoop
+    docker run --name hadoop_container -p 50070:50070 -p 50075:50075 harisekhon/hadoop
     ```
     This will allow us to run hadoop instance in docker container.
     
