@@ -26,6 +26,12 @@ To simplify process of installation hadoop instance we decided to use Docker wit
 
     Now you can work on hadoop using command-line shell.
 
+### Usefull scripts
+Located in /scripts
+
+- setup.sh - run to copy exercises data files to running container
+- compile.sh - run to compile file to fat jar and upload to container to /files/hadoop.jar
+
 ### Cheatsheet
 - Creating maven fat jar
     ```json
@@ -38,7 +44,7 @@ To simplify process of installation hadoop instance we decided to use Docker wit
     ```
     For example:
     ```json
-    docker cp hadoop.jar hadoop_container:/files_for_hdfs
+    docker cp hadoop.jar hadoop_container:/files/
     ```
 
 - Creating hdfs:
