@@ -2,9 +2,11 @@
 
 ## Prerequisites
 
-- Java 8
-- Docker
-
+- Java JDK 8 - [Java JDK 8](https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
+- Java IDE - [IntelliJ IDEA recommended](https://www.jetbrains.com/idea/)
+- Docker - [Windows](https://docs.docker.com/toolbox/toolbox_install_windows/) / [Linux](https://docs.docker.com/install/linux/docker-ce/ubuntu/)
+- Maven 3.6.1 - [Maven](https://maven.apache.org/download.cgi)
+ 
 ## Installation
 
 To simplify process of installation hadoop instance we decided to use Docker with hadoop image.
