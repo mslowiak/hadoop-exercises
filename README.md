@@ -1,5 +1,8 @@
 # Hadoop Exercises
 
+## Presentation
+[LINK](https://drive.google.com/file/d/1pNiAf61lHjVMKG2gF-3bEq8_bcK4Z9M6/view?usp=sharing)
+
 ## Prerequisites
 
 - Java JDK 8 - [Java JDK 8](https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
